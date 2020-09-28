@@ -12,5 +12,15 @@ namespace ProjectBake.Controllers
         {
             return Content("This a Bakery Project......!!!!");
         }
+
+        public IActionResult Action()
+        {
+            return Content("Hello...");
+        }
+
+        public IActionResult GetAction()
+        {
+            return Content("Welcome..........");
+        }
     }
 }
